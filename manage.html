@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <meta name="theme-color" content="#b91c1c" />
+  <title>Quản lý sự kiện — Dòng Thời Gian Lịch Sử Việt Nam</title>
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/manage.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="brand">
+        <span class="brand-flag" aria-hidden="true">★</span>
+        Quản lý sự kiện
+      </h1>
+      <nav class="header-nav">
+        <a href="index.html" class="nav-link">← Xem dòng thời gian</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="manage-wrap">
+    <p class="manage-note">
+      Sự kiện bạn thêm ở đây được lưu trong <b>trình duyệt</b> (localStorage) và
+      hiển thị cùng dữ liệu gốc ở trang dòng thời gian. Để đưa vĩnh viễn vào
+      trang (mọi người đều thấy), bấm <b>Xuất JSON</b> rồi dán vào
+      <code>data/history.json</code> trong mã nguồn.
+    </p>
+
+    <div class="manage-grid">
+      <!-- ============ FORM ============ -->
+      <section class="card">
+        <h2 id="form-title">Thêm sự kiện mới</h2>
+        <form id="event-form">
+          <input type="hidden" id="f-id" />
+
+          <div class="field-row">
+            <label>Năm <span class="req">*</span>
+              <input type="number" id="f-year" placeholder="vd: 1954 (âm = TCN)" required />
+            </label>
+            <label>Tháng
+              <input type="number" id="f-month" min="1" max="12" placeholder="1–12" />
+            </label>
+            <label>Ngày
+              <input type="number" id="f-day" min="1" max="31" placeholder="1–31" />
+            </label>
+          </div>
+
+          <label>Tiêu đề <span class="req">*</span>
+            <input type="text" id="f-title" placeholder="Tên sự kiện" required />
+          </label>
+
+          <label>Thời kỳ
+            <input type="text" id="f-era" list="era-list" placeholder="vd: Pháp thuộc" />
+            <datalist id="era-list"></datalist>
+          </label>
+
+          <label>Tóm tắt
+            <textarea id="f-summary" rows="4" placeholder="Mô tả ngắn gọn sự kiện..."></textarea>
+          </label>
+
+          <label>Ảnh (URL, tùy chọn)
+            <input type="url" id="f-image" placeholder="https://..." />
+          </label>
+
+          <label>Thẻ (cách nhau bằng dấu phẩy)
+            <input type="text" id="f-tags" placeholder="vd: Điện Biên Phủ, Genève" />
+          </label>
+
+          <fieldset class="articles-field">
+            <legend>Bài báo liên quan</legend>
+            <div id="articles-list"></div>
+            <button type="button" id="add-article" class="btn ghost small">+ Thêm bài báo</button>
+          </fieldset>
+
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Lưu sự kiện</button>
+            <button type="button" id="reset-form" class="btn ghost">Làm mới</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- ============ DANH SÁCH ============ -->
+      <section class="card">
+        <div class="list-head">
+          <h2>Sự kiện của tôi <span id="my-count" class="count-badge">0</span></h2>
+          <div class="list-tools">
+            <button id="export-json" class="btn ghost small">⬇ Xuất JSON</button>
+            <button id="import-json" class="btn ghost small">📥 Nhập JSON</button>
+            <button id="clear-mine" class="btn ghost small danger">🗑 Xóa hết</button>
+          </div>
+        </div>
+        <p class="hint-sm">Chỉ liệt kê các sự kiện bạn tự thêm (lưu trong trình duyệt).</p>
+        <ul id="my-list" class="my-list"></ul>
+        <p id="my-empty" class="empty-sm">Chưa có sự kiện nào. Hãy thêm ở form bên trái.</p>
+      </section>
+    </div>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="assets/js/manage.js"></script>
+</body>
+</html>

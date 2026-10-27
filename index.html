@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===================== ICON ===================== -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <meta name="theme-color" content="#b91c1c" />
+
+  <!-- ===================== SEO ===================== -->
+  <title>Dòng Thời Gian Lịch Sử Việt Nam — Các sự kiện &amp; bài báo liên quan</title>
+  <meta name="description" content="Dòng thời gian lịch sử Việt Nam dựng bằng TimelineJS (KnightLab): các sự kiện quan trọng theo năm, kèm mô tả và bài báo liên quan. Miễn phí, chạy ngay trên trình duyệt." />
+  <meta name="keywords" content="lịch sử việt nam, dòng thời gian, timeline, sự kiện lịch sử, mốc lịch sử việt nam, biên niên sử, timelinejs" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://lichsuvietnam.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="vi_VN" />
+  <meta property="og:site_name" content="Dòng Thời Gian Lịch Sử Việt Nam" />
+  <meta property="og:title" content="Dòng Thời Gian Lịch Sử Việt Nam" />
+  <meta property="og:description" content="Các sự kiện lịch sử Việt Nam theo dòng thời gian, kèm bài báo liên quan." />
+  <meta property="og:url" content="https://lichsuvietnam.github.io/" />
+
+  <!-- ===================== TimelineJS (KnightLab) ===================== -->
+  <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="brand">
+        <span class="brand-flag" aria-hidden="true">★</span>
+        Dòng Thời Gian Lịch Sử Việt Nam
+      </h1>
+      <nav class="header-nav">
+        <a href="manage.html" class="nav-link">Quản lý sự kiện</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Khung TimelineJS -->
+  <div id="timeline-embed" class="timeline-embed"></div>
+
+  <p id="load-error" class="load-error" hidden></p>
+
+  <footer class="site-footer">
+    <div>
+      Dòng Thời Gian Lịch Sử Việt Nam · Một sản phẩm của
+      <a href="https://hotroso.github.io" target="_blank" rel="noopener">Hỗ Trợ Giải Pháp Số</a>.
+      Bảo lưu mọi quyền.
+    </div>
+    <div class="footer-copy">© <span id="footer-year">2026</span> · Dữ liệu mang tính tham khảo giáo dục</div>
+  </footer>
+
+  <!-- TimelineJS core -->
+  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+  <!-- Logic nạp data/history.json, chuyển sang định dạng TimelineJS, Việt hóa -->
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
