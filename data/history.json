@@ -1,1 +1,760 @@
-
+{
+  "title": "Dòng Thời Gian Lịch Sử Việt Nam",
+  "events": [
+    {
+      "id": "hung-vuong",
+      "year": -2879,
+      "era": "Dựng nước",
+      "title": "Nhà nước Văn Lang & các vua Hùng",
+      "summary": "Theo truyền thuyết, nhà nước Văn Lang của các vua Hùng ra đời, được xem là nhà nước đầu tiên trong lịch sử Việt Nam. Giỗ Tổ Hùng Vương (10/3 âm lịch) là ngày quốc lễ.",
+      "tags": ["Văn Lang", "Vua Hùng"],
+      "articles": [
+        { "title": "Hùng Vương", "url": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng" }
+      ]
+    },
+    {
+      "id": "au-lac-257tcn",
+      "year": -257,
+      "era": "Dựng nước",
+      "title": "An Dương Vương lập nước Âu Lạc",
+      "summary": "Thục Phán An Dương Vương hợp nhất Âu Việt và Lạc Việt, lập nước Âu Lạc, đóng đô ở Cổ Loa và cho xây thành Cổ Loa nổi tiếng.",
+      "tags": ["Âu Lạc", "An Dương Vương", "Cổ Loa"],
+      "articles": [
+        { "title": "Âu Lạc", "url": "https://vi.wikipedia.org/wiki/%C3%82u_L%E1%BA%A1c" }
+      ]
+    },
+    {
+      "id": "trieu-da-179tcn",
+      "year": -179,
+      "era": "Dựng nước",
+      "title": "Âu Lạc rơi vào tay Triệu Đà",
+      "summary": "Triệu Đà thôn tính Âu Lạc, sáp nhập vào nước Nam Việt. Sự kiện mở đầu cho hơn một nghìn năm Bắc thuộc của người Việt.",
+      "tags": ["Nam Việt", "Triệu Đà"],
+      "articles": [
+        { "title": "Nam Việt", "url": "https://vi.wikipedia.org/wiki/Nam_Vi%E1%BB%87t" }
+      ]
+    },
+    {
+      "id": "hai-ba-trung",
+      "year": 40,
+      "era": "Bắc thuộc & đấu tranh giành độc lập",
+      "title": "Khởi nghĩa Hai Bà Trưng",
+      "summary": "Hai Bà Trưng (Trưng Trắc, Trưng Nhị) phất cờ khởi nghĩa chống ách đô hộ nhà Hán, giành quyền tự chủ trong một thời gian ngắn — cuộc khởi nghĩa lớn đầu tiên chống Bắc thuộc.",
+      "tags": ["Khởi nghĩa", "Trưng Trắc", "Trưng Nhị"],
+      "articles": [
+        { "title": "Khởi nghĩa Hai Bà Trưng", "url": "https://vi.wikipedia.org/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Hai_B%C3%A0_Tr%C6%B0ng" }
+      ]
+    },
+    {
+      "id": "ba-trieu-248",
+      "year": 248,
+      "era": "Bắc thuộc & đấu tranh giành độc lập",
+      "title": "Khởi nghĩa Bà Triệu",
+      "summary": "Triệu Thị Trinh (Bà Triệu) lãnh đạo khởi nghĩa chống ách đô hộ nhà Đông Ngô ở vùng Cửu Chân (Thanh Hóa), để lại câu nói bất khuất về chí nguyện cưỡi gió đạp sóng.",
+      "tags": ["Bà Triệu", "Cửu Chân"],
+      "articles": [
+        { "title": "Bà Triệu", "url": "https://vi.wikipedia.org/wiki/B%C3%A0_Tri%E1%BB%87u" }
+      ]
+    },
+    {
+      "id": "ly-bi-544",
+      "year": 544,
+      "era": "Bắc thuộc & đấu tranh giành độc lập",
+      "title": "Lý Bí lập nước Vạn Xuân",
+      "summary": "Lý Bí (Lý Nam Đế) đánh đuổi quân Lương, xưng đế và lập nước Vạn Xuân — nhà nước độc lập với quốc hiệu riêng, thể hiện ý chí tự chủ lâu dài của người Việt.",
+      "tags": ["Vạn Xuân", "Lý Nam Đế"],
+      "articles": [
+        { "title": "Nhà Tiền Lý", "url": "https://vi.wikipedia.org/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%BD" }
+      ]
+    },
+    {
+      "id": "bach-dang-938",
+      "year": 938,
+      "era": "Bắc thuộc & đấu tranh giành độc lập",
+      "title": "Chiến thắng Bạch Đằng — Ngô Quyền",
+      "summary": "Ngô Quyền đánh tan quân Nam Hán trên sông Bạch Đằng bằng trận địa cọc ngầm, chấm dứt hơn một nghìn năm Bắc thuộc và mở ra thời kỳ độc lập tự chủ lâu dài.",
+      "tags": ["Bạch Đằng", "Ngô Quyền"],
+      "articles": [
+        { "title": "Trận Bạch Đằng năm 938", "url": "https://vi.wikipedia.org/wiki/Tr%E1%BA%ADn_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng_(938)" }
+      ]
+    },
+    {
+      "id": "dinh-bo-linh-968",
+      "year": 968,
+      "era": "Các triều đại phong kiến",
+      "title": "Đinh Bộ Lĩnh dẹp loạn, lập nước Đại Cồ Việt",
+      "summary": "Sau khi dẹp loạn 12 sứ quân, Đinh Bộ Lĩnh lên ngôi (Đinh Tiên Hoàng), đặt quốc hiệu Đại Cồ Việt, đóng đô ở Hoa Lư — nhà nước phong kiến tập quyền đầu tiên.",
+      "tags": ["Nhà Đinh", "Đại Cồ Việt", "Hoa Lư"],
+      "articles": [
+        { "title": "Đinh Bộ Lĩnh", "url": "https://vi.wikipedia.org/wiki/%C4%90inh_B%E1%BB%99_L%C4%A9nh" }
+      ]
+    },
+    {
+      "id": "bach-dang-981",
+      "year": 981,
+      "era": "Các triều đại phong kiến",
+      "title": "Lê Hoàn đánh bại quân Tống",
+      "summary": "Lê Hoàn (Lê Đại Hành) lãnh đạo quân dân Đại Cồ Việt đánh bại cuộc xâm lược lần thứ nhất của nhà Tống, bảo vệ nền độc lập non trẻ.",
+      "tags": ["Nhà Tiền Lê", "Lê Hoàn", "Nhà Tống"],
+      "articles": [
+        { "title": "Chiến tranh Tống – Việt (981)", "url": "https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_tranh_T%E1%BB%91ng%E2%80%93Vi%E1%BB%87t,_981" }
+      ]
+    },
+    {
+      "id": "ly-thai-to-1010",
+      "year": 1010,
+      "era": "Các triều đại phong kiến",
+      "title": "Lý Thái Tổ dời đô về Thăng Long",
+      "summary": "Vua Lý Thái Tổ ban Chiếu dời đô, chuyển kinh đô từ Hoa Lư về Đại La, đổi tên thành Thăng Long — nền móng cho Thủ đô Hà Nội ngày nay.",
+      "tags": ["Nhà Lý", "Thăng Long", "Chiếu dời đô"],
+      "articles": [
+        { "title": "Chiếu dời đô", "url": "https://vi.wikipedia.org/wiki/Chi%E1%BA%BFu_d%E1%BB%9Di_%C4%91%C3%B4" }
+      ]
+    },
+    {
+      "id": "ly-thuong-kiet-1077",
+      "year": 1077,
+      "era": "Các triều đại phong kiến",
+      "title": "Lý Thường Kiệt phá Tống trên sông Như Nguyệt",
+      "summary": "Lý Thường Kiệt chặn đứng cuộc xâm lược của nhà Tống tại phòng tuyến sông Như Nguyệt. Bài thơ \"Nam quốc sơn hà\" vang lên như bản tuyên ngôn độc lập đầu tiên.",
+      "tags": ["Nhà Lý", "Lý Thường Kiệt", "Như Nguyệt"],
+      "articles": [
+        { "title": "Trận Như Nguyệt", "url": "https://vi.wikipedia.org/wiki/Tr%E1%BA%ADn_Nh%C6%B0_Nguy%E1%BB%87t" }
+      ]
+    },
+    {
+      "id": "nha-tran-1225",
+      "year": 1225,
+      "era": "Các triều đại phong kiến",
+      "title": "Nhà Trần thành lập",
+      "summary": "Trần Cảnh lên ngôi, mở ra triều Trần — một trong những triều đại rực rỡ nhất, ba lần đánh bại quân Nguyên–Mông và phát triển văn hóa Đại Việt.",
+      "tags": ["Nhà Trần", "Trần Thái Tông"],
+      "articles": [
+        { "title": "Nhà Trần", "url": "https://vi.wikipedia.org/wiki/Nh%C3%A0_Tr%E1%BA%A7n" }
+      ]
+    },
+    {
+      "id": "bach-dang-1288",
+      "year": 1288,
+      "era": "Các triều đại phong kiến",
+      "title": "Chiến thắng Bạch Đằng — Trần Hưng Đạo",
+      "summary": "Nhà Trần dưới sự chỉ huy của Hưng Đạo Đại Vương Trần Quốc Tuấn đánh bại quân Nguyên–Mông lần thứ ba trên sông Bạch Đằng, bảo vệ nền độc lập của Đại Việt.",
+      "tags": ["Nhà Trần", "Trần Hưng Đạo", "Nguyên Mông"],
+      "articles": [
+        { "title": "Trận Bạch Đằng năm 1288", "url": "https://vi.wikipedia.org/wiki/Tr%E1%BA%ADn_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng_(1288)" }
+      ]
+    },
+    {
+      "id": "lam-son-1428",
+      "year": 1428,
+      "era": "Các triều đại phong kiến",
+      "title": "Lê Lợi đại thắng, lập nhà Hậu Lê",
+      "summary": "Sau 10 năm khởi nghĩa Lam Sơn, Lê Lợi đánh đuổi quân Minh, lên ngôi hoàng đế, lập nhà Hậu Lê. Nguyễn Trãi viết Bình Ngô đại cáo — bản tuyên ngôn độc lập.",
+      "tags": ["Lam Sơn", "Lê Lợi", "Nguyễn Trãi"],
+      "articles": [
+        { "title": "Bình Ngô đại cáo", "url": "https://vi.wikipedia.org/wiki/B%C3%ACnh_Ng%C3%B4_%C4%91%E1%BA%A1i_c%C3%A1o" }
+      ]
+    },
+    {
+      "id": "le-thanh-tong-1460",
+      "year": 1460,
+      "era": "Các triều đại phong kiến",
+      "title": "Thời thịnh trị Lê Thánh Tông",
+      "summary": "Vua Lê Thánh Tông lên ngôi, đưa Đại Việt vào thời kỳ cực thịnh: ban hành bộ luật Hồng Đức, mở mang bờ cõi, chấn hưng giáo dục và khoa cử.",
+      "tags": ["Nhà Hậu Lê", "Lê Thánh Tông", "Luật Hồng Đức"],
+      "articles": [
+        { "title": "Lê Thánh Tông", "url": "https://vi.wikipedia.org/wiki/L%C3%AA_Th%C3%A1nh_T%C3%B4ng" }
+      ]
+    },
+    {
+      "id": "trinh-nguyen-1627",
+      "year": 1627,
+      "era": "Các triều đại phong kiến",
+      "title": "Khởi đầu chiến tranh Trịnh – Nguyễn",
+      "summary": "Xung đột Trịnh – Nguyễn bùng nổ, chia cắt Đại Việt thành Đàng Ngoài và Đàng Trong trong gần hai thế kỷ; đồng thời thúc đẩy công cuộc Nam tiến mở rộng lãnh thổ.",
+      "tags": ["Trịnh – Nguyễn", "Đàng Trong", "Đàng Ngoài"],
+      "articles": [
+        { "title": "Chiến tranh Trịnh – Nguyễn", "url": "https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_tranh_Tr%E1%BB%8Bnh%E2%80%93Nguy%E1%BB%85n" }
+      ]
+    },
+    {
+      "id": "tay-son-1771",
+      "year": 1771,
+      "era": "Các triều đại phong kiến",
+      "title": "Khởi nghĩa Tây Sơn bùng nổ",
+      "summary": "Ba anh em Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ dấy binh ở Tây Sơn, lật đổ các tập đoàn phong kiến Trịnh – Nguyễn, mở ra phong trào Tây Sơn.",
+      "tags": ["Tây Sơn", "Nguyễn Huệ"],
+      "articles": [
+        { "title": "Nhà Tây Sơn", "url": "https://vi.wikipedia.org/wiki/Nh%C3%A0_T%C3%A2y_S%C6%A1n" }
+      ]
+    },
+    {
+      "id": "rach-gam-xoai-mut-1785",
+      "year": 1785,
+      "era": "Các triều đại phong kiến",
+      "title": "Chiến thắng Rạch Gầm – Xoài Mút",
+      "summary": "Nguyễn Huệ chỉ huy quân Tây Sơn tiêu diệt 5 vạn quân Xiêm trên sông Tiền (Rạch Gầm – Xoài Mút), bảo vệ vùng đất phương Nam.",
+      "tags": ["Tây Sơn", "Nguyễn Huệ", "Quân Xiêm"],
+      "articles": [
+        { "title": "Trận Rạch Gầm – Xoài Mút", "url": "https://vi.wikipedia.org/wiki/Tr%E1%BA%ADn_R%E1%BA%A1ch_G%E1%BA%A7m_%E2%80%93_Xo%C3%A0i_M%C3%BAt" }
+      ]
+    },
+    {
+      "id": "ngoc-hoi-dong-da-1789",
+      "year": 1789,
+      "month": 1,
+      "era": "Các triều đại phong kiến",
+      "title": "Quang Trung đại phá quân Thanh",
+      "summary": "Hoàng đế Quang Trung – Nguyễn Huệ hành quân thần tốc, đánh tan 29 vạn quân Thanh trong dịp Tết Kỷ Dậu với chiến thắng Ngọc Hồi – Đống Đa.",
+      "tags": ["Tây Sơn", "Quang Trung", "Đống Đa"],
+      "articles": [
+        { "title": "Trận Ngọc Hồi – Đống Đa", "url": "https://vi.wikipedia.org/wiki/Tr%E1%BA%ADn_Ng%E1%BB%8Dc_H%E1%BB%93i_-_%C4%90%E1%BB%91ng_%C4%90a" }
+      ]
+    },
+    {
+      "id": "nha-nguyen-1802",
+      "year": 1802,
+      "era": "Các triều đại phong kiến",
+      "title": "Nguyễn Ánh lập nhà Nguyễn",
+      "summary": "Nguyễn Ánh đánh bại Tây Sơn, lên ngôi lấy niên hiệu Gia Long, lập nhà Nguyễn — triều đại phong kiến cuối cùng; năm 1804 đặt quốc hiệu Việt Nam.",
+      "tags": ["Nhà Nguyễn", "Gia Long", "Việt Nam"],
+      "articles": [
+        { "title": "Nhà Nguyễn", "url": "https://vi.wikipedia.org/wiki/Nh%C3%A0_Nguy%E1%BB%85n" }
+      ]
+    },
+    {
+      "id": "phap-xam-luoc-1858",
+      "year": 1858,
+      "month": 9,
+      "day": 1,
+      "era": "Pháp thuộc",
+      "title": "Pháp nổ súng xâm lược tại Đà Nẵng",
+      "summary": "Liên quân Pháp – Tây Ban Nha tấn công bán đảo Sơn Trà (Đà Nẵng), mở đầu quá trình xâm lược và đặt ách đô hộ của thực dân Pháp tại Việt Nam.",
+      "tags": ["Pháp thuộc", "Đà Nẵng"],
+      "articles": [
+        { "title": "Chiến dịch Nam Kỳ (1858–1862)", "url": "https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_Nam_K%E1%BB%B3_(1858%E2%80%931862)" }
+      ]
+    },
+    {
+      "id": "hoa-uoc-giap-than-1884",
+      "year": 1884,
+      "month": 6,
+      "day": 6,
+      "era": "Pháp thuộc",
+      "title": "Hòa ước Giáp Thân (Patenôtre)",
+      "summary": "Triều Nguyễn ký hòa ước Patenôtre, thừa nhận sự bảo hộ của Pháp trên toàn cõi Việt Nam, chính thức đặt nước ta dưới ách thực dân.",
+      "tags": ["Pháp thuộc", "Hòa ước Patenôtre"],
+      "articles": [
+        { "title": "Hòa ước Giáp Thân (1884)", "url": "https://vi.wikipedia.org/wiki/H%C3%B2a_%C6%B0%E1%BB%9Bc_Gi%C3%A1p_Th%C3%A2n_(1884)" }
+      ]
+    },
+    {
+      "id": "can-vuong-1885",
+      "year": 1885,
+      "month": 7,
+      "era": "Pháp thuộc",
+      "title": "Phong trào Cần Vương",
+      "summary": "Vua Hàm Nghi xuống chiếu Cần Vương kêu gọi văn thân, sĩ phu và nhân dân phò vua cứu nước, mở đầu phong trào vũ trang chống Pháp cuối thế kỷ 19.",
+      "tags": ["Cần Vương", "Hàm Nghi"],
+      "articles": [
+        { "title": "Phong trào Cần Vương", "url": "https://vi.wikipedia.org/wiki/Phong_tr%C3%A0o_C%E1%BA%A7n_V%C6%B0%C6%A1ng" }
+      ]
+    },
+    {
+      "id": "nguyen-tat-thanh-1911",
+      "year": 1911,
+      "month": 6,
+      "day": 5,
+      "era": "Pháp thuộc",
+      "title": "Nguyễn Tất Thành ra đi tìm đường cứu nước",
+      "summary": "Người thanh niên Nguyễn Tất Thành (sau là Hồ Chí Minh) rời bến Nhà Rồng trên con tàu Amiral Latouche-Tréville, bắt đầu hành trình tìm đường cứu nước.",
+      "tags": ["Bến Nhà Rồng", "Hồ Chí Minh", "1911"],
+      "articles": [
+        { "title": "Hồ Chí Minh", "url": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Ch%C3%AD_Minh" }
+      ]
+    },
+    {
+      "id": "dang-cs-1930",
+      "year": 1930,
+      "month": 2,
+      "day": 3,
+      "era": "Đấu tranh giành độc lập hiện đại",
+      "title": "Thành lập Đảng Cộng sản Việt Nam",
+      "summary": "Nguyễn Ái Quốc chủ trì hợp nhất các tổ chức cộng sản, thành lập Đảng Cộng sản Việt Nam tại Hương Cảng.",
+      "tags": ["1930", "Nguyễn Ái Quốc"],
+      "articles": [
+        { "title": "Đảng Cộng sản Việt Nam", "url": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam" }
+      ]
+    },
+    {
+      "id": "cmt8-1945",
+      "year": 1945,
+      "month": 8,
+      "day": 19,
+      "era": "Đấu tranh giành độc lập hiện đại",
+      "title": "Cách mạng Tháng Tám",
+      "summary": "Tổng khởi nghĩa giành chính quyền trên cả nước, lật đổ chế độ thực dân – phong kiến, mở đường cho sự ra đời của nước Việt Nam Dân chủ Cộng hòa.",
+      "tags": ["1945", "Tổng khởi nghĩa"],
+      "articles": [
+        { "title": "Cách mạng Tháng Tám", "url": "https://vi.wikipedia.org/wiki/C%C3%A1ch_m%E1%BA%A1ng_Th%C3%A1ng_T%C3%A1m" }
+      ]
+    },
+    {
+      "id": "doc-lap-1945",
+      "year": 1945,
+      "month": 9,
+      "day": 2,
+      "era": "Đấu tranh giành độc lập hiện đại",
+      "title": "Tuyên ngôn Độc lập — khai sinh nước VNDCCH",
+      "summary": "Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn Độc lập tại Quảng trường Ba Đình, khai sinh nước Việt Nam Dân chủ Cộng hòa.",
+      "tags": ["2/9", "Hồ Chí Minh", "Ba Đình"],
+      "articles": [
+        { "title": "Tuyên ngôn độc lập Việt Nam Dân chủ Cộng hòa", "url": "https://vi.wikipedia.org/wiki/Tuy%C3%AAn_ng%C3%B4n_%C4%91%E1%BB%99c_l%E1%BA%ADp_(Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a)" }
+      ]
+    },
+    {
+      "id": "toan-quoc-khang-chien-1946",
+      "year": 1946,
+      "month": 12,
+      "day": 19,
+      "era": "Đấu tranh giành độc lập hiện đại",
+      "title": "Toàn quốc kháng chiến chống Pháp",
+      "summary": "Hưởng ứng Lời kêu gọi toàn quốc kháng chiến của Chủ tịch Hồ Chí Minh, quân dân cả nước bước vào cuộc kháng chiến trường kỳ chống thực dân Pháp.",
+      "tags": ["Kháng chiến chống Pháp", "1946"],
+      "articles": [
+        { "title": "Lời kêu gọi toàn quốc kháng chiến", "url": "https://vi.wikipedia.org/wiki/L%E1%BB%9Di_k%C3%AAu_g%E1%BB%8Di_to%C3%A0n_qu%E1%BB%91c_kh%C3%A1ng_chi%E1%BA%BFn" }
+      ]
+    },
+    {
+      "id": "dien-bien-phu-1954",
+      "year": 1954,
+      "month": 5,
+      "day": 7,
+      "era": "Đấu tranh giành độc lập hiện đại",
+      "title": "Chiến thắng Điện Biên Phủ",
+      "summary": "Chiến dịch Điện Biên Phủ toàn thắng, buộc Pháp ký Hiệp định Genève, chấm dứt chiến tranh Đông Dương lần thứ nhất. Đất nước tạm chia hai miền tại vĩ tuyến 17.",
+      "tags": ["Điện Biên Phủ", "Genève", "Võ Nguyên Giáp"],
+      "articles": [
+        { "title": "Chiến dịch Điện Biên Phủ", "url": "https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_%C4%90i%E1%BB%87n_Bi%C3%AAn_Ph%E1%BB%A7" },
+        { "title": "Hiệp định Genève 1954", "url": "https://vi.wikipedia.org/wiki/Hi%E1%BB%87p_%C4%91%E1%BB%8Bnh_Gen%C3%A8ve,_1954" }
+      ]
+    },
+    {
+      "id": "mau-than-1968",
+      "year": 1968,
+      "month": 1,
+      "day": 30,
+      "era": "Đấu tranh giành độc lập hiện đại",
+      "title": "Cuộc Tổng tiến công Tết Mậu Thân",
+      "summary": "Cuộc Tổng tiến công và nổi dậy Tết Mậu Thân trên khắp miền Nam gây chấn động dư luận, làm thay đổi cục diện cuộc chiến tranh Việt Nam.",
+      "tags": ["Mậu Thân", "1968"],
+      "articles": [
+        { "title": "Sự kiện Tết Mậu Thân", "url": "https://vi.wikipedia.org/wiki/S%E1%BB%B1_ki%E1%BB%87n_T%E1%BA%BFt_M%E1%BA%ADu_Th%C3%A2n" }
+      ]
+    },
+    {
+      "id": "paris-1973",
+      "year": 1973,
+      "month": 1,
+      "day": 27,
+      "era": "Đấu tranh giành độc lập hiện đại",
+      "title": "Hiệp định Paris",
+      "summary": "Hiệp định Paris về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam được ký kết; quân đội Mỹ rút khỏi miền Nam Việt Nam.",
+      "tags": ["Hiệp định Paris", "1973"],
+      "articles": [
+        { "title": "Hiệp định Paris 1973", "url": "https://vi.wikipedia.org/wiki/Hi%E1%BB%87p_%C4%91%E1%BB%8Bnh_Paris_1973" }
+      ]
+    },
+    {
+      "id": "thong-nhat-1975",
+      "year": 1975,
+      "month": 4,
+      "day": 30,
+      "era": "Thống nhất & đổi mới",
+      "title": "Giải phóng miền Nam, thống nhất đất nước",
+      "summary": "Chiến dịch Hồ Chí Minh toàn thắng, kết thúc chiến tranh Việt Nam. Non sông thu về một mối, mở đường cho việc thống nhất đất nước năm 1976.",
+      "tags": ["30/4", "Thống nhất"],
+      "articles": [
+        { "title": "Sự kiện 30 tháng 4 năm 1975", "url": "https://vi.wikipedia.org/wiki/S%E1%BB%B1_ki%E1%BB%87n_30_th%C3%A1ng_4_n%C4%83m_1975" }
+      ]
+    },
+    {
+      "id": "thong-nhat-nha-nuoc-1976",
+      "year": 1976,
+      "month": 7,
+      "day": 2,
+      "era": "Thống nhất & đổi mới",
+      "title": "Thành lập nước Cộng hòa XHCN Việt Nam",
+      "summary": "Quốc hội thống nhất quyết định đổi tên nước thành Cộng hòa Xã hội chủ nghĩa Việt Nam, hợp nhất hai miền về mặt nhà nước; Sài Gòn đổi tên thành Thành phố Hồ Chí Minh.",
+      "tags": ["1976", "Thống nhất nhà nước"],
+      "articles": [
+        { "title": "Cộng hòa Xã hội chủ nghĩa Việt Nam", "url": "https://vi.wikipedia.org/wiki/Vi%E1%BB%87t_Nam" }
+      ]
+    },
+    {
+      "id": "doi-moi-1986",
+      "year": 1986,
+      "month": 12,
+      "era": "Thống nhất & đổi mới",
+      "title": "Đổi Mới",
+      "summary": "Đại hội VI của Đảng khởi xướng công cuộc Đổi Mới, chuyển sang kinh tế thị trường định hướng xã hội chủ nghĩa, mở cửa và hội nhập quốc tế.",
+      "tags": ["Đổi Mới", "Kinh tế thị trường"],
+      "articles": [
+        { "title": "Đổi Mới", "url": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%95i_M%E1%BB%9Bi" }
+      ]
+    },
+    {
+      "id": "binh-thuong-hoa-my-1995",
+      "year": 1995,
+      "month": 7,
+      "day": 11,
+      "era": "Thống nhất & đổi mới",
+      "title": "Bình thường hóa quan hệ Việt – Mỹ & gia nhập ASEAN",
+      "summary": "Việt Nam và Hoa Kỳ tuyên bố bình thường hóa quan hệ ngoại giao; cùng năm, Việt Nam chính thức gia nhập ASEAN, đánh dấu bước hội nhập khu vực và quốc tế.",
+      "tags": ["1995", "Việt – Mỹ", "ASEAN"],
+      "articles": [
+        { "title": "Quan hệ ngoại giao Việt Nam – Hoa Kỳ", "url": "https://vi.wikipedia.org/wiki/Quan_h%E1%BB%87_ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam_%E2%80%93_Hoa_K%E1%BB%B3" }
+      ]
+    },
+    {
+      "id": "wto-2007",
+      "year": 2007,
+      "month": 1,
+      "day": 11,
+      "era": "Thống nhất & đổi mới",
+      "title": "Việt Nam gia nhập WTO",
+      "summary": "Việt Nam trở thành thành viên thứ 150 của Tổ chức Thương mại Thế giới (WTO), hoàn tất một bước hội nhập kinh tế toàn cầu quan trọng của thời kỳ Đổi Mới.",
+      "tags": ["2007", "WTO", "Hội nhập"],
+      "articles": [
+        { "title": "Tổ chức Thương mại Thế giới", "url": "https://vi.wikipedia.org/wiki/T%E1%BB%95_ch%E1%BB%A9c_Th%C6%B0%C6%A1ng_m%E1%BA%A1i_Th%E1%BA%BF_gi%E1%BB%9Bi" }
+      ]
+    },
+    {
+      "id": "mai-thuc-loan-722",
+      "year": 722,
+      "era": "Bắc thuộc & đấu tranh giành độc lập",
+      "title": "Khởi nghĩa Mai Thúc Loan",
+      "summary": "Mai Thúc Loan (Mai Hắc Đế) lãnh đạo nhân dân nổi dậy chống ách đô hộ nhà Đường, chiếm thành Tống Bình, xưng đế ở vùng Hoan Châu (Nghệ An).",
+      "tags": ["Mai Hắc Đế", "Nhà Đường"],
+      "articles": [
+        { "title": "Mai Thúc Loan", "url": "https://vi.wikipedia.org/wiki/Mai_Th%C3%BAc_Loan" }
+      ]
+    },
+    {
+      "id": "khuc-thua-du-905",
+      "year": 905,
+      "era": "Bắc thuộc & đấu tranh giành độc lập",
+      "title": "Khúc Thừa Dụ giành quyền tự chủ",
+      "summary": "Khúc Thừa Dụ nhân nhà Đường suy yếu đã giành quyền tự chủ, xưng Tiết độ sứ, đặt nền móng cho họ Khúc xây dựng chính quyền tự chủ của người Việt.",
+      "tags": ["Họ Khúc", "Tự chủ"],
+      "articles": [
+        { "title": "Khúc Thừa Dụ", "url": "https://vi.wikipedia.org/wiki/Kh%C3%BAc_Th%E1%BB%ABa_D%E1%BB%A5" }
+      ]
+    },
+    {
+      "id": "nha-ngo-939",
+      "year": 939,
+      "era": "Các triều đại phong kiến",
+      "title": "Ngô Quyền xưng vương, lập nhà Ngô",
+      "summary": "Sau chiến thắng Bạch Đằng, Ngô Quyền xưng vương, bỏ chức Tiết độ sứ, đóng đô ở Cổ Loa, chính thức mở ra kỷ nguyên độc lập tự chủ với nhà Ngô.",
+      "tags": ["Nhà Ngô", "Ngô Quyền", "Cổ Loa"],
+      "articles": [
+        { "title": "Nhà Ngô", "url": "https://vi.wikipedia.org/wiki/Nh%C3%A0_Ng%C3%B4" }
+      ]
+    },
+    {
+      "id": "loan-12-su-quan-944",
+      "year": 944,
+      "era": "Các triều đại phong kiến",
+      "title": "Loạn 12 sứ quân",
+      "summary": "Ngô Quyền mất, đất nước rơi vào cục diện cát cứ của 12 sứ quân, kéo dài tình trạng chia cắt cho đến khi Đinh Bộ Lĩnh dẹp loạn, thống nhất giang sơn.",
+      "tags": ["12 sứ quân", "Cát cứ"],
+      "articles": [
+        { "title": "Loạn 12 sứ quân", "url": "https://vi.wikipedia.org/wiki/Lo%E1%BA%A1n_12_s%E1%BB%A9_qu%C3%A2n" }
+      ]
+    },
+    {
+      "id": "nha-tien-le-980",
+      "year": 980,
+      "era": "Các triều đại phong kiến",
+      "title": "Lê Hoàn lập nhà Tiền Lê",
+      "summary": "Trước nguy cơ xâm lược của nhà Tống, Lê Hoàn được suy tôn lên ngôi, lập nhà Tiền Lê, lãnh đạo cuộc kháng chiến chống Tống năm 981.",
+      "tags": ["Nhà Tiền Lê", "Lê Đại Hành"],
+      "articles": [
+        { "title": "Nhà Tiền Lê", "url": "https://vi.wikipedia.org/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%AA" }
+      ]
+    },
+    {
+      "id": "nha-ly-1009",
+      "year": 1009,
+      "era": "Các triều đại phong kiến",
+      "title": "Lý Công Uẩn lập nhà Lý",
+      "summary": "Lý Công Uẩn được tôn lên ngôi (Lý Thái Tổ), lập nhà Lý — triều đại mở đầu thời kỳ phát triển rực rỡ của văn minh Đại Việt, kéo dài hơn hai thế kỷ.",
+      "tags": ["Nhà Lý", "Lý Thái Tổ"],
+      "articles": [
+        { "title": "Nhà Lý", "url": "https://vi.wikipedia.org/wiki/Nh%C3%A0_L%C3%BD" }
+      ]
+    },
+    {
+      "id": "quoc-hieu-dai-viet-1054",
+      "year": 1054,
+      "era": "Các triều đại phong kiến",
+      "title": "Đặt quốc hiệu Đại Việt",
+      "summary": "Vua Lý Thánh Tông đặt quốc hiệu Đại Việt — tên nước được dùng xuyên suốt nhiều triều đại Lý, Trần, Lê về sau.",
+      "tags": ["Đại Việt", "Lý Thánh Tông"],
+      "articles": [
+        { "title": "Đại Việt", "url": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t" }
+      ]
+    },
+    {
+      "id": "van-mieu-1070",
+      "year": 1070,
+      "era": "Các triều đại phong kiến",
+      "title": "Xây dựng Văn Miếu",
+      "summary": "Vua Lý Thánh Tông cho xây Văn Miếu thờ Khổng Tử; năm 1076 Lý Nhân Tông lập Quốc Tử Giám — được xem là trường đại học đầu tiên của nước ta.",
+      "tags": ["Văn Miếu", "Quốc Tử Giám", "Giáo dục"],
+      "articles": [
+        { "title": "Văn Miếu – Quốc Tử Giám", "url": "https://vi.wikipedia.org/wiki/V%C4%83n_Mi%E1%BA%BFu_%E2%80%93_Qu%E1%BB%91c_T%E1%BB%AD_Gi%C3%A1m" }
+      ]
+    },
+    {
+      "id": "hoi-nghi-dien-hong-1284",
+      "year": 1284,
+      "era": "Các triều đại phong kiến",
+      "title": "Hội nghị Diên Hồng",
+      "summary": "Vua Trần triệu tập các bô lão cả nước tại hội nghị Diên Hồng để hỏi kế chống quân Nguyên; tiếng hô \"Quyết đánh\" thể hiện ý chí toàn dân kháng chiến.",
+      "tags": ["Nhà Trần", "Diên Hồng"],
+      "articles": [
+        { "title": "Hội nghị Diên Hồng", "url": "https://vi.wikipedia.org/wiki/H%E1%BB%99i_ngh%E1%BB%8B_Di%C3%AAn_H%E1%BB%93ng" }
+      ]
+    },
+    {
+      "id": "nha-ho-1400",
+      "year": 1400,
+      "era": "Các triều đại phong kiến",
+      "title": "Hồ Quý Ly lập nhà Hồ",
+      "summary": "Hồ Quý Ly phế nhà Trần, lập nhà Hồ, đổi quốc hiệu Đại Ngu, dời đô vào Tây Đô (Thanh Hóa) và tiến hành nhiều cải cách táo bạo về tiền tệ, ruộng đất.",
+      "tags": ["Nhà Hồ", "Hồ Quý Ly", "Đại Ngu"],
+      "articles": [
+        { "title": "Nhà Hồ", "url": "https://vi.wikipedia.org/wiki/Nh%C3%A0_H%E1%BB%93" }
+      ]
+    },
+    {
+      "id": "thuoc-minh-1407",
+      "year": 1407,
+      "era": "Các triều đại phong kiến",
+      "title": "Nhà Minh đô hộ (thuộc Minh)",
+      "summary": "Nhà Minh đánh bại nhà Hồ, áp đặt ách đô hộ hà khắc lên Đại Việt trong hai thập niên, châm ngòi cho các cuộc khởi nghĩa, tiêu biểu là khởi nghĩa Lam Sơn.",
+      "tags": ["Thuộc Minh", "Nhà Minh"],
+      "articles": [
+        { "title": "Thời thuộc Minh", "url": "https://vi.wikipedia.org/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_th%E1%BB%A9_t%C6%B0" }
+      ]
+    },
+    {
+      "id": "khoi-nghia-lam-son-1418",
+      "year": 1418,
+      "era": "Các triều đại phong kiến",
+      "title": "Lê Lợi dấy nghĩa Lam Sơn",
+      "summary": "Lê Lợi phất cờ khởi nghĩa ở Lam Sơn (Thanh Hóa) chống ách đô hộ nhà Minh, mở đầu cuộc kháng chiến mười năm gian khổ với sự phò tá của Nguyễn Trãi.",
+      "tags": ["Lam Sơn", "Lê Lợi"],
+      "articles": [
+        { "title": "Khởi nghĩa Lam Sơn", "url": "https://vi.wikipedia.org/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Lam_S%C6%A1n" }
+      ]
+    },
+    {
+      "id": "nha-mac-1527",
+      "year": 1527,
+      "era": "Các triều đại phong kiến",
+      "title": "Mạc Đăng Dung lập nhà Mạc",
+      "summary": "Mạc Đăng Dung phế nhà Lê, lập nhà Mạc, mở đầu thời kỳ Nam – Bắc triều với cuộc tranh giành quyền lực giữa nhà Mạc và các lực lượng trung hưng nhà Lê.",
+      "tags": ["Nhà Mạc", "Nam – Bắc triều"],
+      "articles": [
+        { "title": "Nhà Mạc", "url": "https://vi.wikipedia.org/wiki/Nh%C3%A0_M%E1%BA%A1c" }
+      ]
+    },
+    {
+      "id": "nguyen-hoang-nam-tien-1558",
+      "year": 1558,
+      "era": "Các triều đại phong kiến",
+      "title": "Nguyễn Hoàng vào trấn thủ Thuận Hóa",
+      "summary": "Nguyễn Hoàng được cử vào trấn thủ Thuận Hóa, đặt nền móng cho các chúa Nguyễn ở Đàng Trong và công cuộc Nam tiến mở rộng lãnh thổ về phương Nam.",
+      "tags": ["Chúa Nguyễn", "Đàng Trong", "Nam tiến"],
+      "articles": [
+        { "title": "Nguyễn Hoàng", "url": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ho%C3%A0ng" }
+      ]
+    },
+    {
+      "id": "phu-xuan-tay-son-1786",
+      "year": 1786,
+      "era": "Các triều đại phong kiến",
+      "title": "Tây Sơn tiến ra Bắc, lật đổ chúa Trịnh",
+      "summary": "Nguyễn Huệ đem quân ra Bắc với danh nghĩa \"phù Lê diệt Trịnh\", lật đổ tập đoàn chúa Trịnh, chấm dứt cục diện vua Lê – chúa Trịnh ở Đàng Ngoài.",
+      "tags": ["Tây Sơn", "Nguyễn Huệ", "Chúa Trịnh"],
+      "articles": [
+        { "title": "Nhà Tây Sơn", "url": "https://vi.wikipedia.org/wiki/Nh%C3%A0_T%C3%A2y_S%C6%A1n" }
+      ]
+    },
+    {
+      "id": "minh-mang-1820",
+      "year": 1820,
+      "era": "Các triều đại phong kiến",
+      "title": "Vua Minh Mạng lên ngôi",
+      "summary": "Minh Mạng kế vị Gia Long, tiến hành cải cách hành chính quy mô lớn, chia cả nước thành các tỉnh và củng cố bộ máy nhà nước nhà Nguyễn.",
+      "tags": ["Nhà Nguyễn", "Minh Mạng", "Cải cách hành chính"],
+      "articles": [
+        { "title": "Minh Mạng", "url": "https://vi.wikipedia.org/wiki/Minh_M%E1%BA%A1ng" }
+      ]
+    },
+    {
+      "id": "dong-son",
+      "year": -700,
+      "era": "Dựng nước",
+      "title": "Văn hóa Đông Sơn & trống đồng",
+      "summary": "Văn hóa Đông Sơn phát triển rực rỡ ở lưu vực sông Hồng với kỹ thuật luyện kim đồng thau đỉnh cao, tiêu biểu là trống đồng Ngọc Lũ — biểu tượng của văn minh Việt cổ.",
+      "tags": ["Đông Sơn", "Trống đồng", "Văn minh sông Hồng"],
+      "articles": [
+        { "title": "Văn hóa Đông Sơn", "url": "https://vi.wikipedia.org/wiki/V%C4%83n_h%C3%B3a_%C4%90%C3%B4ng_S%C6%A1n" }
+      ]
+    },
+    {
+      "id": "khoi-nghia-chu-dong-tu",
+      "year": -111,
+      "era": "Bắc thuộc & đấu tranh giành độc lập",
+      "title": "Nhà Hán sáp nhập, bắt đầu Bắc thuộc lần thứ nhất",
+      "summary": "Nhà Hán diệt Nam Việt, chia đất Âu Lạc cũ thành các quận Giao Chỉ, Cửu Chân, Nhật Nam, mở đầu thời kỳ Bắc thuộc kéo dài với chính sách đồng hóa.",
+      "tags": ["Nhà Hán", "Giao Chỉ", "Bắc thuộc"],
+      "articles": [
+        { "title": "Bắc thuộc lần thứ nhất", "url": "https://vi.wikipedia.org/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_th%E1%BB%A9_nh%E1%BA%A5t" }
+      ]
+    },
+    {
+      "id": "ly-bon-mat-nuoc-602",
+      "year": 602,
+      "era": "Bắc thuộc & đấu tranh giành độc lập",
+      "title": "Nhà Tùy tái chiếm, Bắc thuộc lần thứ ba",
+      "summary": "Nhà Tùy đưa quân sang tiêu diệt nước Vạn Xuân của hậu duệ nhà Tiền Lý, đặt lại ách đô hộ phương Bắc kéo dài tới đầu thế kỷ 10.",
+      "tags": ["Nhà Tùy", "Vạn Xuân", "Bắc thuộc"],
+      "articles": [
+        { "title": "Bắc thuộc lần thứ ba", "url": "https://vi.wikipedia.org/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_th%E1%BB%A9_ba" }
+      ]
+    },
+    {
+      "id": "phung-hung-791",
+      "year": 791,
+      "era": "Bắc thuộc & đấu tranh giành độc lập",
+      "title": "Khởi nghĩa Phùng Hưng",
+      "summary": "Phùng Hưng lãnh đạo nhân dân nổi dậy đánh chiếm phủ thành, cai quản một thời gian và được tôn là Bố Cái Đại Vương — biểu tượng chống đô hộ nhà Đường.",
+      "tags": ["Phùng Hưng", "Bố Cái Đại Vương"],
+      "articles": [
+        { "title": "Phùng Hưng", "url": "https://vi.wikipedia.org/wiki/Ph%C3%B9ng_H%C6%B0ng" }
+      ]
+    },
+    {
+      "id": "duong-dinh-nghe-931",
+      "year": 931,
+      "era": "Bắc thuộc & đấu tranh giành độc lập",
+      "title": "Dương Đình Nghệ đánh đuổi quân Nam Hán",
+      "summary": "Dương Đình Nghệ, tướng của họ Khúc, đánh đuổi quân Nam Hán, khôi phục quyền tự chủ và tiếp nối sự nghiệp tự chủ trước khi Ngô Quyền giành thắng lợi quyết định.",
+      "tags": ["Dương Đình Nghệ", "Nam Hán", "Tự chủ"],
+      "articles": [
+        { "title": "Dương Đình Nghệ", "url": "https://vi.wikipedia.org/wiki/D%C6%B0%C6%A1ng_%C4%90%C3%ACnh_Ngh%E1%BB%87" }
+      ]
+    },
+    {
+      "id": "nguyen-trai-quoc-am-1433",
+      "year": 1442,
+      "era": "Các triều đại phong kiến",
+      "title": "Vụ án Lệ Chi Viên & di sản Nguyễn Trãi",
+      "summary": "Nguyễn Trãi — anh hùng dân tộc, danh nhân văn hóa — vướng vụ án Lệ Chi Viên. Ông để lại Bình Ngô đại cáo và Quốc âm thi tập, đặt nền cho văn học chữ Nôm.",
+      "tags": ["Nguyễn Trãi", "Chữ Nôm", "Lệ Chi Viên"],
+      "articles": [
+        { "title": "Nguyễn Trãi", "url": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Tr%C3%A3i" }
+      ]
+    },
+    {
+      "id": "trinh-nguyen-phan-tranh-1672",
+      "year": 1672,
+      "era": "Các triều đại phong kiến",
+      "title": "Phân tranh Trịnh – Nguyễn tạm kết thúc",
+      "summary": "Sau gần nửa thế kỷ giao tranh với sông Gianh làm ranh giới, hai bên Trịnh – Nguyễn ngừng chiến, duy trì cục diện Đàng Trong – Đàng Ngoài suốt hơn một thế kỷ.",
+      "tags": ["Trịnh – Nguyễn", "Sông Gianh"],
+      "articles": [
+        { "title": "Chiến tranh Trịnh – Nguyễn", "url": "https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_tranh_Tr%E1%BB%8Bnh%E2%80%93Nguy%E1%BB%85n" }
+      ]
+    },
+    {
+      "id": "sai-gon-1698",
+      "year": 1698,
+      "era": "Các triều đại phong kiến",
+      "title": "Lập phủ Gia Định — khai sinh vùng Sài Gòn",
+      "summary": "Chúa Nguyễn cử Nguyễn Hữu Cảnh vào kinh lý phương Nam, lập phủ Gia Định, đặt nền hành chính cho vùng đất Sài Gòn – Nam Bộ.",
+      "tags": ["Gia Định", "Nguyễn Hữu Cảnh", "Nam Bộ"],
+      "articles": [
+        { "title": "Nguyễn Hữu Cảnh", "url": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_H%E1%BB%AFu_C%E1%BA%A3nh" }
+      ]
+    },
+    {
+      "id": "truyen-kieu-1820",
+      "year": 1820,
+      "month": 9,
+      "era": "Các triều đại phong kiến",
+      "title": "Nguyễn Du & kiệt tác Truyện Kiều",
+      "summary": "Đại thi hào Nguyễn Du qua đời, để lại Truyện Kiều — kiệt tác thơ Nôm đỉnh cao của văn học Việt Nam, sau được UNESCO vinh danh.",
+      "tags": ["Nguyễn Du", "Truyện Kiều", "Văn học"],
+      "articles": [
+        { "title": "Nguyễn Du", "url": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Du" }
+      ]
+    },
+    {
+      "id": "yen-bai-1930",
+      "year": 1930,
+      "month": 2,
+      "day": 10,
+      "era": "Pháp thuộc",
+      "title": "Khởi nghĩa Yên Bái",
+      "summary": "Việt Nam Quốc dân Đảng do Nguyễn Thái Học lãnh đạo phát động khởi nghĩa Yên Bái chống Pháp; tuy thất bại nhưng thể hiện tinh thần \"Không thành công cũng thành nhân\".",
+      "tags": ["Yên Bái", "Nguyễn Thái Học", "VNQDĐ"],
+      "articles": [
+        { "title": "Khởi nghĩa Yên Bái", "url": "https://vi.wikipedia.org/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Y%C3%AAn_B%C3%A1i" }
+      ]
+    },
+    {
+      "id": "giai-phong-ha-noi-1954",
+      "year": 1954,
+      "month": 10,
+      "day": 10,
+      "era": "Đấu tranh giành độc lập hiện đại",
+      "title": "Tiếp quản Thủ đô Hà Nội",
+      "summary": "Sau Hiệp định Genève, quân đội Pháp rút khỏi Hà Nội; bộ đội ta tiến vào tiếp quản Thủ đô trong niềm vui của nhân dân — ngày Giải phóng Thủ đô 10/10.",
+      "tags": ["Giải phóng Thủ đô", "Hà Nội", "1954"],
+      "articles": [
+        { "title": "Giải phóng Thủ đô", "url": "https://vi.wikipedia.org/wiki/Gi%E1%BA%A3i_ph%C3%B3ng_Th%E1%BB%A7_%C4%91%C3%B4" }
+      ]
+    },
+    {
+      "id": "dien-bien-phu-tren-khong-1972",
+      "year": 1972,
+      "month": 12,
+      "day": 18,
+      "era": "Đấu tranh giành độc lập hiện đại",
+      "title": "\"Điện Biên Phủ trên không\"",
+      "summary": "Quân dân miền Bắc đánh bại cuộc tập kích đường không chiến lược bằng máy bay B-52 của Mỹ vào Hà Nội, Hải Phòng, buộc Mỹ trở lại bàn đàm phán Paris.",
+      "tags": ["B-52", "Hà Nội", "1972"],
+      "articles": [
+        { "title": "Chiến dịch Linebacker II", "url": "https://vi.wikipedia.org/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_Linebacker_II" }
+      ]
+    },
+    {
+      "id": "apec-2017",
+      "year": 2017,
+      "month": 11,
+      "era": "Thống nhất & đổi mới",
+      "title": "Việt Nam đăng cai APEC 2017",
+      "summary": "Việt Nam tổ chức thành công Tuần lễ Cấp cao APEC tại Đà Nẵng, khẳng định vai trò và vị thế đối ngoại ngày càng cao trong khu vực châu Á – Thái Bình Dương.",
+      "tags": ["APEC", "Đà Nẵng", "Đối ngoại"],
+      "articles": [
+        { "title": "APEC Việt Nam 2017", "url": "https://vi.wikipedia.org/wiki/APEC_Vi%E1%BB%87t_Nam_2017" }
+      ]
+    }
+  ]
+}
