@@ -1,1 +1,149 @@
-
+{
+    "name": "Tiếng Việt",
+    "lang": "vi",
+    "api": {
+        "wikipedia": "vi"
+    },
+    "messages": {
+        "loading": "Đang tải",
+        "wikipedia": "Theo Wikipedia tiếng Việt, bách khoa toàn thư mở",
+        "error": "Lỗi",
+        "return_to_title": "Về đầu dòng thời gian",
+        "go_to_end": "Tới sự kiện cuối",
+        "loading_content": "Đang tải nội dung",
+        "loading_timeline": "Đang tải dòng thời gian… ",
+        "swipe_to_navigate": "Vuốt để di chuyển<br><span class='tl-button'>Đã hiểu</span>",
+        "zoom_in": "Phóng to",
+        "zoom_out": "Thu nhỏ",
+        "unknown_read_err": "Đã xảy ra lỗi khi đọc dữ liệu.",
+        "invalid_url_err": "Không đọc được dữ liệu dòng thời gian. Hãy chắc chắn URL trỏ tới tệp JSON hợp lệ.",
+        "network_err": "Không đọc được dữ liệu. Vui lòng kiểm tra kết nối mạng.",
+        "missing_start_date_err": "Thiếu ngày bắt đầu (start_date)",
+        "invalid_start_time_without_date": "Cấu hình không hợp lệ: không thể dùng giờ khi chưa có ngày.",
+        "invalid_end_time_without_date": "Cấu hình không hợp lệ: không thể dùng giờ kết thúc khi chưa có ngày kết thúc.",
+        "date_compare_err": "Không thể so sánh các mốc thời gian ở thang đo khác nhau",
+        "invalid_scale_err": "Thang đo không hợp lệ",
+        "invalid_date_err": "Ngày không hợp lệ: tháng, ngày và năm phải là số.",
+        "invalid_separator_error": "Giờ không hợp lệ: dùng sai dấu : hoặc . làm dấu phân cách.",
+        "invalid_hour_err": "Giờ không hợp lệ (giờ)",
+        "invalid_minute_err": "Giờ không hợp lệ (phút)",
+        "invalid_second_err": "Giờ không hợp lệ (giây)",
+        "invalid_fractional_err": "Giờ không hợp lệ (phần lẻ giây)",
+        "invalid_second_fractional_err": "Giờ không hợp lệ (giây và phần lẻ giây)",
+        "invalid_year_err": "Năm không hợp lệ",
+        "flickr_notfound_err": "Không tìm thấy ảnh hoặc ảnh ở chế độ riêng tư",
+        "flickr_invalidurl_err": "URL Flickr không hợp lệ",
+        "imgur_invalidurl_err": "URL Imgur không hợp lệ",
+        "twitter_load_err": "Không tải được Tweet",
+        "twitterembed_invalidurl_err": "URL nhúng Twitter không hợp lệ",
+        "tiktok_invalidurl_err": "URL TikTok không hợp lệ",
+        "bluesky_invalidurl_err": "URL Bluesky không hợp lệ",
+        "wikipedia_load_err": "Không tải được mục Wikipedia",
+        "spotify_invalid_url": "URL Spotify không hợp lệ",
+        "invalid_rgb_err": "Tham số RGB không hợp lệ",
+        "time_scale_scale_err": "Không xác định được ngày từ giờ cho thang đo",
+        "axis_helper_no_options_err": "Axis helper cần được cấu hình với tùy chọn",
+        "axis_helper_scale_err": "Không có AxisHelper cho thang đo",
+        "invalid_integer_option": "Giá trị tùy chọn không hợp lệ — phải là số nguyên.",
+        "instagram_bad_request": "URL Instagram không hợp lệ hoặc ở chế độ riêng tư"
+    },
+    "date": {
+        "month": [
+            "Tháng 1",
+            "Tháng 2",
+            "Tháng 3",
+            "Tháng 4",
+            "Tháng 5",
+            "Tháng 6",
+            "Tháng 7",
+            "Tháng 8",
+            "Tháng 9",
+            "Tháng 10",
+            "Tháng 11",
+            "Tháng 12"
+        ],
+        "month_abbr": [
+            "Th1",
+            "Th2",
+            "Th3",
+            "Th4",
+            "Th5",
+            "Th6",
+            "Th7",
+            "Th8",
+            "Th9",
+            "Th10",
+            "Th11",
+            "Th12"
+        ],
+        "day": [
+            "Chủ nhật",
+            "Thứ hai",
+            "Thứ ba",
+            "Thứ tư",
+            "Thứ năm",
+            "Thứ sáu",
+            "Thứ bảy"
+        ],
+        "day_abbr": [
+            "CN",
+            "T2",
+            "T3",
+            "T4",
+            "T5",
+            "T6",
+            "T7"
+        ]
+    },
+    "era_labels": {
+        "positive_year": {
+            "prefix": "",
+            "suffix": ""
+        },
+        "negative_year": {
+            "prefix": "",
+            "suffix": "TCN"
+        }
+    },
+    "period_labels": {
+        "t": ["s", "c"],
+        "tt": ["sáng", "chiều"],
+        "T": ["S", "C"],
+        "TT": ["SÁNG", "CHIỀU"]
+    },
+    "dateformats": {
+        "year": "yyyy",
+        "month_short": "mmm",
+        "month": "mmmm yyyy",
+        "full_short": "d mmm",
+        "full": "d mmmm',' yyyy",
+        "time": "h:MM:ss TT' <small>'d mmmm',' yyyy'</small>'",
+        "time_short": "h:MM:ss TT",
+        "time_no_seconds_short": "h:MM TT",
+        "time_no_minutes_short": "h TT",
+        "time_no_seconds_small_date": "h:MM TT' <small>'d mmmm',' yyyy'</small>'",
+        "time_milliseconds": "l",
+        "full_long": "d mmm',' yyyy 'lúc' h:MM TT",
+        "full_long_small_date": "h:MM TT' <small>d mmm',' yyyy'</small>'"
+    },
+    "bigdateformats": {
+        "fallback": [
+            [1000000000, "%.2f tỷ năm trước"],
+            [1000000, "%.1f triệu năm trước"],
+            [1000, "%.1f nghìn năm trước"],
+            [1, "%f năm trước"]
+        ],
+        "compact": [
+            [1000000000, "%.2f tỷ năm trước"],
+            [1000000, "%.1f triệu năm trước"],
+            [1000, "%.1f nghìn năm trước"],
+            [1, "%f năm trước"]
+        ],
+        "verbose": [
+            [1000000000, "%.2f tỷ năm trước"],
+            [1000000, "%.1f triệu năm trước"],
+            [1000, "%.1f nghìn năm trước"],
+            [1, "%f năm trước"]
+        ]
+    }
+}
