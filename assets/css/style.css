@@ -1,1 +1,131 @@
+/* ===========================================================
+   Dòng Thời Gian Lịch Sử Việt Nam
+   Khung + header/footer bao quanh TimelineJS (KnightLab).
+   Tông đỏ–vàng (cờ VN).
+   =========================================================== */
+:root {
+  --red: #b91c1c;
+  --red-dark: #7f1212;
+  --gold: #f4b400;
+  --ink: #1f2430;
+  --ink-soft: #55607a;
+  --line: #e4dccb;
+  --bg: #fbf7ef;
+  --card: #ffffff;
+  --shadow: 0 6px 20px rgba(60, 40, 20, .10);
+  --radius: 14px;
+}
 
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; }
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+a { color: var(--red); }
+
+/* ===================== HEADER ===================== */
+.site-header {
+  background: linear-gradient(135deg, var(--red), var(--red-dark));
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,.18);
+  flex: 0 0 auto;
+}
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.brand {
+  font-size: clamp(1.1rem, 2.4vw, 1.5rem);
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: .3px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.brand-flag { color: var(--gold); font-size: 1.3em; line-height: 1; }
+.header-nav { display: flex; gap: 8px; }
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: .9rem;
+  padding: 6px 12px;
+  border: 1px solid rgba(255,255,255,.45);
+  border-radius: 999px;
+  transition: background .15s;
+}
+.nav-link:hover { background: rgba(255,255,255,.16); }
+
+/* ===================== KHUNG TIMELINEJS ===================== */
+.timeline-embed {
+  flex: 1 1 auto;
+  width: 100%;
+  /* Chiều cao trừ header (~58) và footer (~64) */
+  height: calc(100vh - 122px);
+  min-height: 460px;
+}
+
+/* Một số tùy biến nhẹ cho nội dung slide do ta tự dựng */
+.tl-articles-label {
+  font-weight: 700;
+  margin: 12px 0 4px;
+}
+ul.tl-articles {
+  margin: 0;
+  padding-left: 18px;
+}
+ul.tl-articles li { margin: 3px 0; }
+.tl-tags {
+  color: var(--ink-soft);
+  font-size: .9em;
+  margin: 6px 0;
+}
+
+/* Màu nhấn của TimelineJS theo tông đỏ (ghi đè nhẹ) */
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container,
+.tl-timemarker.tl-timemarker-active .tl-timemarker-timespan-content {
+  background-color: var(--red) !important;
+}
+.tl-timeaxis-tick .tl-timeaxis-tick-text { color: var(--ink-soft); }
+
+/* ===================== LỖI TẢI ===================== */
+.load-error {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 16px 18px;
+  text-align: center;
+  color: var(--red-dark);
+  background: #fdecec;
+  border-top: 1px solid #f3c3c3;
+  border-bottom: 1px solid #f3c3c3;
+}
+
+/* ===================== FOOTER ===================== */
+.site-footer {
+  flex: 0 0 auto;
+  text-align: center;
+  padding: 16px;
+  color: var(--ink-soft);
+  font-size: .82rem;
+  border-top: 1px solid var(--line);
+  background: var(--bg);
+}
+.footer-copy { margin-top: 3px; opacity: .8; }
+
+@media (max-width: 720px) {
+  .timeline-embed { height: calc(100vh - 140px); min-height: 420px; }
+}
