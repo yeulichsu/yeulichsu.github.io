@@ -184,8 +184,7 @@
     // Gợi ý thời kỳ (datalist)
     var eras = {};
     load().forEach(function (e) { if (e.era) eras[e.era] = 1; });
-    ["Dựng nước", "Bắc thuộc & đấu tranh giành độc lập", "Các triều đại phong kiến",
-     "Pháp thuộc", "Đấu tranh giành độc lập hiện đại", "Thống nhất & đổi mới"]
+    ["Thời kỳ dựng nước đầu tiên", "Bắc thuộc & các cuộc khởi nghĩa", "Độc lập & phong kiến tự chủ"]
       .forEach(function (e) { eras[e] = 1; });
     els.eraList.innerHTML = Object.keys(eras)
       .map(function (e) { return '<option value="' + escapeHtml(e) + '">'; }).join("");
