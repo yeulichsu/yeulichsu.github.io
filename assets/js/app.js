@@ -47,7 +47,54 @@
       });
       html += "</ul>";
     }
+
+    // Bộ sưu tập ảnh bổ sung (ảnh thu nhỏ, bấm để xem ảnh lớn)
+    var images = Array.isArray(ev.images) ? ev.images.filter(function (i) { return i && i.url; }) : [];
+    if (images.length) {
+      html += '<p class="tl-articles-label">Hình ảnh:</p><div class="tl-gallery">';
+      images.forEach(function (img) {
+        var cap = img.caption || "";
+        html += '<a href="' + escapeHtml(img.url) + '" target="_blank" rel="noopener" title="' +
+          escapeHtml(cap) + '"><img src="' + escapeHtml(img.url) + '" alt="' + escapeHtml(cap) +
+          '" loading="lazy" /></a>';
+      });
+      html += "</div>";
+    }
+
+    // Video YouTube
+    var videos = Array.isArray(ev.videos) ? ev.videos.filter(function (v) { return v && v.url; }) : [];
+    if (videos.length) {
+      html += '<p class="tl-articles-label">Video YouTube:</p><ul class="tl-articles tl-videos">';
+      videos.forEach(function (v) {
+        html += '<li><a href="' + escapeHtml(v.url) + '" target="_blank" rel="noopener">▶ ' +
+          escapeHtml(v.title || v.url) + "</a></li>";
+      });
+      html += "</ul>";
+    }
+
+    // Link trực quan (tìm ảnh / video / kho Wikimedia)
+    var links = Array.isArray(ev.links) ? ev.links.filter(function (l) { return l && l.url; }) : [];
+    if (!links.length && ev.title) {
+      var q = encodeURIComponent(ev.title);
+      links = [
+        { title: "Xem hình ảnh", url: "https://www.google.com/search?tbm=isch&q=" + q },
+        { title: "Xem video trên YouTube", url: "https://www.youtube.com/results?search_query=" + q },
+        { title: "Kho ảnh Wikimedia Commons", url: "https://commons.wikimedia.org/w/index.php?search=" + q + "&ns6=1&ns14=1" }
+      ];
+    }
+    if (links.length) {
+      html += '<p class="tl-links">' + links.map(function (l) {
+        return '<a class="tl-link-chip" href="' + escapeHtml(l.url) + '" target="_blank" rel="noopener">' +
+          escapeHtml(l.title || l.url) + "</a>";
+      }).join(" ") + "</p>";
+    }
     return html;
+  }
+
+  // Lấy ID video YouTube từ URL (watch?v=, youtu.be/, embed/)
+  function youtubeId(url) {
+    var m = String(url || "").match(/(?:youtube\.com\/(?:watch\?(?:.*&)?v=|embed\/|shorts\/)|youtu\.be\/)([A-Za-z0-9_-]{11})/);
+    return m ? m[1] : null;
   }
 
   // Chuyển một sự kiện của ta sang slide TimelineJS.
@@ -70,8 +117,14 @@
     // Ảnh (nếu có) làm media của slide; nếu không, dùng bài báo đầu tiên làm media
     var articles = Array.isArray(ev.articles)
       ? ev.articles.filter(function (a) { return a && a.url; }) : [];
+    var firstVideo = Array.isArray(ev.videos)
+      ? ev.videos.filter(function (v) { return v && youtubeId(v.url); })[0] : null;
     if (ev.image) {
-      slide.media = { url: ev.image, caption: ev.title || "" };
+      slide.media = { url: ev.image, caption: ev.title || "", thumbnail: ev.image };
+      if (articles.length) { slide.media.link = articles[0].url; slide.media.link_target = "_blank"; }
+    } else if (firstVideo) {
+      // TimelineJS nhúng trực tiếp video YouTube
+      slide.media = { url: firstVideo.url, caption: firstVideo.title || "" };
     } else if (articles.length) {
       slide.media = {
         url: articles[0].url,

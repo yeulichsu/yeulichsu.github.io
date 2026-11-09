@@ -17,6 +17,8 @@
     era: document.getElementById("f-era"),
     summary: document.getElementById("f-summary"),
     image: document.getElementById("f-image"),
+    images: document.getElementById("f-images"),
+    videos: document.getElementById("f-videos"),
     tags: document.getElementById("f-tags"),
     articles: document.getElementById("articles-list"),
     addArticle: document.getElementById("add-article"),
@@ -92,6 +94,24 @@
     return out;
   }
 
+  // ---------- Danh sách "URL | nhãn" (ảnh bổ sung, video) ----------
+  function parseLines(text, labelKey) {
+    return String(text || "").split(/\r?\n/).map(function (line) {
+      var i = line.indexOf("|");
+      var url = (i >= 0 ? line.slice(0, i) : line).trim();
+      var label = i >= 0 ? line.slice(i + 1).trim() : "";
+      if (!/^https?:\/\//i.test(url)) return null;
+      var o = { url: url };
+      o[labelKey] = label || url;
+      return o;
+    }).filter(Boolean);
+  }
+  function toLines(arr, labelKey) {
+    return (arr || []).map(function (o) {
+      return o.url + (o[labelKey] && o[labelKey] !== o.url ? " | " + o[labelKey] : "");
+    }).join("\n");
+  }
+
   // ---------- Form ----------
   function resetForm() {
     form.reset();
@@ -109,6 +129,8 @@
     els.era.value = ev.era || "";
     els.summary.value = ev.summary || "";
     els.image.value = ev.image || "";
+    els.images.value = toLines(ev.images, "caption");
+    els.videos.value = toLines(ev.videos, "title");
     els.tags.value = (ev.tags || []).join(", ");
     els.articles.innerHTML = "";
     (ev.articles || []).forEach(function (a) { addArticleRow(a.title, a.url); });
@@ -132,6 +154,8 @@
       era: els.era.value.trim() || "Khác",
       summary: els.summary.value.trim(),
       image: els.image.value.trim(),
+      images: parseLines(els.images.value, "caption"),
+      videos: parseLines(els.videos.value, "title"),
       tags: tags,
       articles: collectArticles()
     };

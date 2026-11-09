@@ -95,6 +95,49 @@ ul.tl-articles li { margin: 3px 0; }
   margin: 6px 0;
 }
 
+/* Bộ sưu tập ảnh bổ sung */
+.tl-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 4px 0 8px;
+}
+.tl-gallery a {
+  display: block;
+  width: 96px;
+  height: 72px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #f3efe6;
+}
+.tl-gallery a:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.tl-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .2s;
+}
+.tl-gallery a:hover img { transform: scale(1.06); }
+
+/* Video YouTube */
+ul.tl-videos a { text-decoration: none; }
+ul.tl-videos a:hover { text-decoration: underline; }
+
+/* Link trực quan dạng chip */
+.tl-links { margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.tl-link-chip {
+  display: inline-block;
+  font-size: .85em;
+  padding: 3px 10px;
+  border: 1px solid var(--red);
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--red);
+  background: #fff;
+}
+.tl-link-chip:hover, .tl-link-chip:focus-visible { background: var(--red); color: #fff; }
+
 /* Màu nhấn của TimelineJS theo tông đỏ (ghi đè nhẹ) */
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container,
 .tl-timemarker.tl-timemarker-active .tl-timemarker-timespan-content {
