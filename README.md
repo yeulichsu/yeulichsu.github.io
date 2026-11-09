@@ -78,8 +78,8 @@ python -m http.server 8000
 
 ## Deploy lên GitHub Pages
 
-1. Tạo repo tên `lichsuvietnam.github.io` (dạng user/organization pages) trên
-   tài khoản `lichsuvietnam`, hoặc một repo bất kỳ rồi bật Pages.
+1. Tạo repo tên `yeulichsu.github.io` (dạng user/organization pages) trên
+   tài khoản `yeulichsu`, hoặc một repo bất kỳ rồi bật Pages.
 2. Push toàn bộ thư mục này lên nhánh `main`.
 3. **Settings → Pages → Build and deployment → Source** chọn
    **Deploy from a branch**, branch `main`, thư mục `/ (root)`, **Save**.
