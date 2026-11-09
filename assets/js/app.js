@@ -235,7 +235,7 @@
     var options = {
       language: "assets/js/vi.json", // Việt hóa nhãn giao diện
       start_at_end: false,           // mở ở sự kiện sớm nhất
-      initial_zoom: 8,               // mức zoom khởi đầu (có thể phóng to/thu nhỏ)
+      initial_zoom: 5,               // mức zoom khởi đầu (có thể phóng to/thu nhỏ)
       timenav_position: "bottom",
       timenav_height_percentage: 30, // thanh thời gian dưới cao hơn, dễ thấy nhiều mốc
       duration: 600,
