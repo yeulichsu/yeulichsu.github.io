@@ -54,13 +54,30 @@ Hai cách:
   "era": "Đấu tranh giành độc lập hiện đại",
   "title": "Chiến thắng Điện Biên Phủ",
   "summary": "Mô tả ngắn gọn...",
-  "image": "https://... (tùy chọn)",
+  "image": "https://... (tùy chọn, ảnh chính của slide)",
+  "images": [
+    { "url": "https://upload.wikimedia.org/...", "caption": "Chú thích ảnh" }
+  ],
+  "videos": [
+    { "title": "Tên video", "url": "https://www.youtube.com/watch?v=XXXXXXXXXXX" }
+  ],
+  "links": [
+    { "title": "Xem hình ảnh", "url": "https://www.google.com/search?tbm=isch&q=..." }
+  ],
   "tags": ["Điện Biên Phủ", "Genève"],
   "articles": [
     { "title": "Tên bài báo", "url": "https://..." }
   ]
 }
 ```
+
+- `image`: ảnh chính hiển thị lớn trong slide. Nếu không có ảnh, video YouTube
+  đầu tiên được nhúng trực tiếp làm media; nếu cũng không có video thì dùng bài
+  báo đầu tiên.
+- `images`: bộ sưu tập ảnh thu nhỏ (bấm để xem ảnh lớn).
+- `videos`: danh sách video YouTube liên quan.
+- `links`: các link trực quan (tìm ảnh, video, kho Wikimedia Commons). Nếu bỏ
+  trống, trang tự tạo theo tiêu đề sự kiện.
 
 - `year` bắt buộc; `month`, `day` tùy chọn. Năm **âm** = trước Công nguyên.
 - `era` là tên thời kỳ (dùng để nhóm). Các sự kiện cùng `era` gom chung một mục.
