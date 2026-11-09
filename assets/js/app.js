@@ -25,9 +25,50 @@
     } catch (e) { return []; }
   }
 
+  // Năm hiển thị: số âm = trước Công nguyên
+  function fmtYear(y) {
+    y = Number(y);
+    return y < 0 ? (Math.abs(y) + " TCN") : String(y);
+  }
+  function fmtSpan(d) { return fmtYear(d.start) + " – " + fmtYear(d.end); }
+
+  // Danh sách triều đại (nạp từ data/history.json -> "dynasties")
+  var DYNASTIES = [];
+
+  // Tìm triều đại chứa một năm (ưu tiên triều đại bắt đầu muộn nhất khi chồng lấn)
+  function dynastyOf(year) {
+    var best = null;
+    DYNASTIES.forEach(function (d) {
+      if (year >= d.start && year <= d.end && (!best || d.start >= best.start)) best = d;
+    });
+    return best;
+  }
+
+  // Bảng thông tin của một triều đại
+  function dynastyInfo(d) {
+    var rows = [
+      ["Thời gian", fmtSpan(d)],
+      ["Quốc hiệu", d.country],
+      ["Kinh đô", d.capital],
+      ["Vua / nhân vật tiêu biểu", d.rulers]
+    ].filter(function (r) { return r[1]; });
+    return '<dl class="tl-dynasty-info">' + rows.map(function (r) {
+      return "<dt>" + escapeHtml(r[0]) + "</dt><dd>" + escapeHtml(r[1]) + "</dd>";
+    }).join("") + "</dl>";
+  }
+
   // Dựng phần "text" cho một sự kiện: tóm tắt + danh sách bài báo.
   function buildText(ev) {
     var html = "";
+    if (ev.isDynasty) {
+      html += dynastyInfo(ev.dynasty);
+    } else if (ev.year != null) {
+      var dy = dynastyOf(Number(ev.year));
+      if (dy) {
+        html += '<p class="tl-dynasty-tag">Thuộc: <b>' + escapeHtml(dy.name) + "</b> (" +
+          escapeHtml(fmtSpan(dy)) + ")</p>";
+      }
+    }
     if (ev.summary) html += "<p>" + escapeHtml(ev.summary) + "</p>";
 
     var tags = Array.isArray(ev.tags) ? ev.tags : [];
@@ -110,6 +151,8 @@
     };
     if (ev.month) slide.start_date.month = Number(ev.month);
     if (ev.day) slide.start_date.day = Number(ev.day);
+    // Triều đại: slide kéo dài từ năm bắt đầu tới năm kết thúc
+    if (ev.end_year != null) slide.end_date = { year: Number(ev.end_year) };
 
     // Nhóm hiển thị theo thời kỳ (TimelineJS vẽ nhãn nhóm ở dải điều hướng dưới)
     if (ev.era) slide.group = ev.era;
@@ -145,8 +188,37 @@
             "Kéo thanh bên dưới hoặc dùng mũi tên để di chuyển qua các mốc thời gian.</p>"
         }
       },
-      events: events.map(toSlide)
+      events: dynastySlides().concat(events.map(toSlide)),
+      // Dải màu tên triều đại trên thanh thời gian
+      eras: DYNASTIES.map(function (d) {
+        return {
+          start_date: { year: Number(d.start) },
+          end_date: { year: Number(d.end) },
+          text: { headline: escapeHtml(d.name) }
+        };
+      })
     };
+  }
+
+  // Mỗi triều đại thành một slide tổng quan (có khoảng thời gian bắt đầu – kết thúc)
+  function dynastySlides() {
+    return DYNASTIES.map(function (d) {
+      var slide = toSlide({
+        isDynasty: true,
+        dynasty: d,
+        year: d.start,
+        end_year: d.end,
+        era: d.period,
+        title: d.name + " (" + fmtSpan(d) + ")",
+        summary: d.summary,
+        image: d.image,
+        images: d.images,
+        videos: d.videos,
+        articles: d.articles
+      });
+      slide.unique_id = "trieu-dai-" + d.id;
+      return slide;
+    });
   }
 
   function showError(msg) {
@@ -163,7 +235,7 @@
     var options = {
       language: "assets/js/vi.json", // Việt hóa nhãn giao diện
       start_at_end: false,           // mở ở sự kiện sớm nhất
-      initial_zoom: 2,               // mức zoom khởi đầu (có thể phóng to/thu nhỏ)
+      initial_zoom: 8,               // mức zoom khởi đầu (có thể phóng to/thu nhỏ)
       timenav_position: "bottom",
       timenav_height_percentage: 30, // thanh thời gian dưới cao hơn, dễ thấy nhiều mốc
       duration: 600,
@@ -188,6 +260,7 @@
       })
       .then(function (data) {
         var base = Array.isArray(data) ? data : (data.events || []);
+        DYNASTIES = Array.isArray(data.dynasties) ? data.dynasties : [];
         var all = base.concat(loadUserEvents());
         if (!all.length) { showError("Chưa có sự kiện nào trong data/history.json."); return; }
         init(all);
